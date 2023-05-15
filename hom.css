@@ -1,0 +1,78 @@
+body{
+    background-color: rgb(249, 218, 177);
+}
+
+.home{
+    background-color: aliceblue;
+    font-size: large;
+}
+
+.code{
+    color: rgb(81, 57, 28);
+    font-size: large;
+    font-size: 20px;
+}
+   
+.msg{
+    text-align: center;
+    color: rgb(107, 15, 141);
+}
+
+.NB{
+    text-align: center;
+    color: rgb(72, 5, 96);
+    margin-top: 3%;
+    font-size: 15px;
+}
+.container{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    margin-left: 30%;
+    top: 25%;
+    
+    
+}
+
+.inline{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.go{
+    position: relative;
+    top: 10px;
+    margin: 10px;
+    height: 25px;
+    width: 35px
+}
+
+.input{
+    height: 20px;
+    width: 250px;
+}
+
+.q{
+    position: absolute;
+    top: 50px;
+    color: rgb(71, 6, 133);
+}
+
+
+strong{
+    color: blue;
+}
+
+.tx{
+    color: aquamarine;
+    position: relative;
+    top: 250px;
+   margin-left: 85%;
+   background-color: white;
+   color: blueviolet;
+   font-size: 20px;
+   font-style: oblique;
+
+}

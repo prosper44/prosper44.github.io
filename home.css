@@ -1,0 +1,42 @@
+body{
+    background-color: antiquewhite;
+}
+.a{
+    position: absolute;
+    margin-top: 5%;
+    margin-left: 30%;
+    font-size: 100px;
+    color: #0b8f84;
+    font-family: cursive;
+}
+
+.b{
+    position: absolute;
+    margin-top: 20%;
+    font-size: 50px;
+    color: #08405c;
+    font-style: bold;
+    text-align: center;
+    font-family: monospace;
+    border: none;
+    border-radius: 10px;
+}
+
+.C{
+    position: absolute;
+    width: 400px;
+    height: 60px;
+    text-align: center;
+    margin-top: 35%;
+    margin-left: 38%;
+    padding: 5px;
+    border-radius: 5px 10px 5px 10px;
+    border: solid 2px rgb(184, 15, 15);
+    color: rgb(146, 12, 117);
+    font-size: 35px;
+}
+
+
+
+
+

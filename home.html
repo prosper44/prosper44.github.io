@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="hom.css">
+    </head>
+    <body>
+
+        <a class="home" href="index.html">HOME</a>
+        <h2 class="msg" >MICHAEL HAS A MESSAGE FOR YOU </h2>
+        <p class="NB" ><strong>NB:</strong><em> The passcode is the name i frequently call you</em></p>
+        <div class="container">
+           <div id="parent" class="inline">
+            <p class="code">Enter passcode: <input id="get" class="input" type="text"></p>
+            <p class="q" id="child"></p>
+           </div> 
+           <button class="go" onclick="guy()">GO</button>
+
+        </div>
+        <a href="end.html" class="tx">CLICK HERE</a>
+
+
+
+        
+     
+    </body>
+    <script>
+        function guy(){
+
+        var get = document.getElementById("get").value;
+
+        if(get === "emmanuel"){
+            document.getElementById("child").innerHTML = "Blood, i dont know why i just like you just like that. you be real G and i want you to know that. keep on doing what you can to be great bro, bcs you will eventually be great. But anyways wetin make we do this Chelsea matter now? <br> I don tire oooo, Thank God say no be that mumu stadium biggest bird won run show sef";
+        }
+        
+        else if(get === "dennis"){
+            document.getElementById("child").innerHTML = "My blood from day one what's good baby? <br> i see you attacking the Tech-space from Back-end and i doing it from the front. Should i say that's a good threesome on Tech lol. i have something to say to you bro, in all u chase in life to getting better and getting money don't forsake the Tech-space you found, always go on with it, you will be glad you dont leave it eventually ";
+        }
+
+        else if(get === "emma"){
+            document.getElementById("child").innerHTML = "Damn Rommie? You kow what it do. <br> i know you wanna fly round the world and do some Tech shit with it too, trust me i am gonna see you do those for long and i be chilling and educating you about them bitches u know lol. Have you dreamt of hitting them  bitches on air before? lol. Trust me it might be thing u really wanna do, but dont tell Mercy lol. ";
+        }
+
+        else if(get === "bright"){
+            document.getElementById("child").innerHTML = "Bright  with the billionaire mindset, forget it bro you are a genius and you always know what you doing  <br> You are a brilliant person in a kind of way, getting more money and chilling lowkey has been your thing and it has been working for you i know that. <br> I feel thats where you get your energy, when your quiet and softly doing your thing bcs you know what you wanted and you dnt need nobody to tell you that.<br> Your a great man";
+        }
+
+        else{
+            document.getElementById("child").innerHTML = "ERROR, CHECK YOUR SPELLINGS";
+        }
+
+
+
+        
+        }
+
+
+    </script>
+</html>
